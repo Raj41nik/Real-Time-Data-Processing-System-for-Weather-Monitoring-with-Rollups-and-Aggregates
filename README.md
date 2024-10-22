@@ -1,63 +1,63 @@
-# Weather Data Retrieval and Analysis System
+# -weatherApp-zeotap-assignment-
+Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
 
-<img width="960" alt="image" src="https://github.com/user-attachments/assets/2c4fc70a-9633-485e-a3d6-aef57359b81a">
+# Weather App
 
-Hosted link: https://kulashekar01.github.io/Weather-Monitoring-System/
-
-
-## Overview
-
-This project is designed to retrieve weather data from the OpenWeatherMap API at configurable intervals, convert temperature values based on user preference, and provide daily weather summaries including additional parameters like humidity and wind speed. The system is built to be robust, easy to set up, and extendable.
+## Description
+This Weather App provides real-time weather information for various cities using the OpenWeatherMap API. Users can search for a city to get the current weather conditions, including temperature and description. The app features a visually appealing background that changes based on the weather conditions, enhancing the user experience.
 
 ## Features
+- **Real-time Weather Data**: Fetch current weather information for any city.
+- **Dynamic Background**: The background video changes based on the weather conditions (sunny, cloudy, rainy, or snowy).
+- **User-Friendly Interface**: Simple and intuitive design, allowing easy navigation and use.
+- **Temperature Units**: Select between Celsius, Kelvin, and Fahrenheit.
 
-- **System Setup:** Initializes and connects to the OpenWeatherMap API using a valid API key.
-- **Data Retrieval:** Simulates API calls at configurable intervals to retrieve and parse weather data for specified locations.
-- **Temperature Conversion:** Converts temperature values from Kelvin to Celsius or Fahrenheit based on user preference.
-- **Daily Weather Summary:** Simulates weather updates over several days and calculates average, maximum, minimum temperatures, and dominant weather conditions.
-- **Additional Parameters:** Supports retrieval and analysis of additional weather parameters such as humidity and wind speed.
-- **5 days Weather Forecast** 
-
-## Design Choices
-
-- **Modularity:** The system is divided into distinct modules for initialization, data retrieval, temperature conversion, and summary generation, making it easy to maintain and extend.
-- **Configurability:** API call intervals and temperature units are configurable to allow flexibility.
-- **Extensibility:** Designed to easily incorporate additional weather parameters from the OpenWeatherMap API.
-
-## Requirements
-- Screen 1070*680 minimum
-- Nodejs (optional in case system do not have live server utility)
+## Technologies Used
+- **HTML**: Structure of the web application.
+- **CSS**: Styling and layout of the application.
+- **JavaScript**: Functionality and API integration.
+- **OpenWeatherMap API**: For fetching weather data.
 
 ## Getting Started
-
 ### Prerequisites
-
-- Node.js and npm installed
+- A web browser
+- An internet connection
 
 ### Installation
-
-1. **Clone the Repository**
+1. Clone this repository to your local machine:
    ```bash
-   git clone "https://github.com/Kulashekar01/Weather-Monitoring-System.git"
-   cd App2-Weather-app
+   git clone https://github.com/Raj41nik/Real-Time-Data-Processing-System-for-Weather-Monitoring-with-Rollups-and-Aggregates
    ```
-
-2. **Install Backend Dependencies**
-
+2. Navigate to the project directory:
    ```bash
-   npm install
-   
+   cd weather-app
    ```
-   
-3. **run live server
+3. Open `index.html` in your preferred web browser.
 
-   ```bash
-   npm install http-server -g
-   http-server -p 8080**
-   ```
+### Usage
+1. Open the app in your browser.
+2. Enter a city name in the search bar.
+3. Click the search button to retrieve the weather information.
+4. The weather data will be displayed along with the corresponding background video.
 
-## Running Tests
+### Note
+Make sure to replace the OpenWeatherMap API key in the JavaScript code with your own. You can obtain a free API key by signing up at [OpenWeatherMap](https://openweathermap.org/).
 
-You can add and run tests to ensure everything is working correctly.
+## File Structure
 ```
-created bt: Kulashekar Inkollu
+/weather-app
+│
+├── index.html           # Main HTML file
+├── media                # Folder for media files (background videos)
+│   ├── video.mp4
+└── script.js            # Javascript file for Logic part  
+└── style.css            # CSS file for styling (if separated)
+```
+
+## Author
+Created by **Nikhil Raj** #contact@ nikhil30.0303@gmail.com
+
+## Hosted Link
+
+[Link](https://real-time-data-processing-system-for-weather-monitor-od8v81851.vercel.app/)
+---
