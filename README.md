@@ -1,6 +1,8 @@
 # -weatherApp-zeotap-assignment-
 Real-Time Data Processing System for Weather Monitoring with Rollups and Aggregates
+<img width="960" alt="image" src="/media/1.png">
 
+Hosted link: https://real-time-data-processing-system-for-weather-monitor-od8v81851.vercel.app/
 # Weather App
 
 ## Description
@@ -8,7 +10,6 @@ This Weather App provides real-time weather information for various cities using
 
 ## Features
 - **Real-time Weather Data**: Fetch current weather information for any city.
-- **Dynamic Background**: The background video changes based on the weather conditions (sunny, cloudy, rainy, or snowy).
 - **User-Friendly Interface**: Simple and intuitive design, allowing easy navigation and use.
 - **Temperature Units**: Select between Celsius, Kelvin, and Fahrenheit.
 
@@ -30,7 +31,7 @@ This Weather App provides real-time weather information for various cities using
    ```
 2. Navigate to the project directory:
    ```bash
-   cd weather-app
+   cd Weather-Monitoring-System-main
    ```
 3. Open `index.html` in your preferred web browser.
 
@@ -45,7 +46,7 @@ Make sure to replace the OpenWeatherMap API key in the JavaScript code with your
 
 ## File Structure
 ```
-/weather-app
+/Weather-Monitoring-System-main
 │
 ├── index.html           # Main HTML file
 ├── media                # Folder for media files (background videos)
@@ -57,7 +58,5 @@ Make sure to replace the OpenWeatherMap API key in the JavaScript code with your
 ## Author
 Created by **Nikhil Raj** #contact@ nikhil30.0303@gmail.com
 
-## Hosted Link
 
-[Link](https://real-time-data-processing-system-for-weather-monitor-od8v81851.vercel.app/)
 ---
